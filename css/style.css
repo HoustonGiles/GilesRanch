@@ -1,0 +1,141 @@
+body{
+	background: #003300;
+}
+
+a {
+	color: yellow;
+	font-family: bookman old style;
+	font-size: 12pt;
+}
+
+a:hover {
+	color: green;
+	font-family: bookman old style;
+	font-size: 12pt;
+}
+
+a:visited {
+	color: yellow;
+	font-family: bookman old style;
+	font-size: 12pt;
+}
+
+p {
+	color: yellow;
+	font-family: bookman old style;
+	font-size: 12pt;
+}
+
+td {
+	color: yellow;
+	font-family: bookman old style;
+	font-size: 12pt;
+}
+
+#content {
+text-align: justify;
+}	.menu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.menu ul{
+	background:#003300;
+	height:35px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu li{
+	float:left;
+	padding:0px;
+}
+.menu li a{
+	background:#003300 url('/images/seperator.gif') bottom right no-repeat;
+	color:yellow;
+	display:block;
+	font-weight:normal;
+	line-height:35px;
+	margin:0px;
+	padding:0px 25px;
+	text-align:center;
+	text-decoration:none;
+}
+	.menu li a:hover, .menu ul li:hover a{
+		background: #2580a2 url('/images/hover.gif') bottom center no-repeat;
+		color:yellow;
+		text-decoration:none;
+	}
+.menu li ul{
+	background:#003300;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:225px;
+	z-index:200;
+	/*top:1em;
+	/*left:0;*/
+}
+.menu li:hover ul{
+	display:block;
+
+}
+.menu li li {
+	background:url('/images/sub_sep.gif') bottom left no-repeat;
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:225px;
+}
+.menu li:hover li a{
+	background:none;
+
+}
+.menu li ul a{
+	display:block;
+	height:35px;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	padding:0px 10px 0px 15px;
+	text-align:left;
+}
+.menu li ul a:hover, .menu li ul li:hover a{
+	background:#003300 url('/images/hover_sub.gif') center left no-repeat;
+	border:0px;
+	color:yellow;
+	text-decoration:none;
+}
+.menu p{
+	clear:left;
+}
+
+#lightbox{ position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none;}
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto;}
+#imageContainer{ padding: 10px;}
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0;}
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10;}
+#imageContainer #hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block;}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(/images/prevlabel.gif) left 15% no-repeat;}
+#nextLink:hover, #nextLink:visited:hover { background: url(/images/nextlabel.gif) right 15% no-repeat;}
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	;}
+#imageData{	padding:0 10px; color: #666;}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left;}
+#imageData #caption{ font-weight: bold;}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;}
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000;}

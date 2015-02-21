@@ -1,0 +1,6 @@
+url: http://www.gilesfamilyranch.com
+name: Giles Family Ranch
+description: All Natural Grass Fed
+auto: true
+server: true
+markdown: rdiscount

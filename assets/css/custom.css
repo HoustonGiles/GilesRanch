@@ -1,0 +1,57 @@
+.logo {
+    border-bottom: 1px solid white;
+}
+
+.lead {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.speaker-avatar {
+    padding: 20px;
+}
+
+.icon-speaker {
+    height: 100%;
+    width: 100%;
+    border-radius: 400px;
+    border: 1px solid white;
+    margin-top: 8%;
+}
+
+.icon-sponsor {
+    width: 65%;
+    margin: auto;
+}
+
+.darken {
+    background: rgba(0,0,0,.50);
+}
+
+.modal-body p {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+
+.box {
+    border: 1px solid;
+    padding: 2em;
+    text-align: left;
+}
+
+.pad-vertical {
+    margin: 5em 0;
+}
+
+.col-sm-3 {
+    width: 18%;
+}
