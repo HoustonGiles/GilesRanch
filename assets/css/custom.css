@@ -55,3 +55,18 @@
 .col-sm-3 {
     width: 18%;
 }
+
+img.squared_border {
+    border:1px solid white;
+}
+
+img.squared_border.hover_effect {
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+img.squared_border.hover_effect:hover {
+    border-color:rgba(255,255,255,0);
+    -webkit-box-shadow: 0 0 0 4px #fff;
+    -moz-box-shadow:    0 0 0 4px #fff;
+    box-shadow:         0 0 0 4px #fff;
+}
