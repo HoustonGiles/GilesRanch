@@ -70,3 +70,7 @@ img.squared_border.hover_effect:hover {
     -moz-box-shadow:    0 0 0 4px #fff;
     box-shadow:         0 0 0 4px #fff;
 }
+
+#main-content .carousel .carousel-indicators.title-indicators li {
+    font-size: 1.2em !important;
+}
